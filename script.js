@@ -1,9 +1,10 @@
 function generarPares() {
     let pares = [];
+    let array = []; 
     for (let i = 1; i <= 100; i++) {
-      pares.push(i * 2);
+        if (i % 2 === 0) {
+            array.push(i); 
+        }
     }
-    return pares;
+    alert("Los 100 primeros números pares son:" + " " + array.join(" - "));
 }
-const primerosCienPares = generarPares();
-console.log(primerosCienPares);
