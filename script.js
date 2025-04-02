@@ -1,3 +1,4 @@
+// funcion del boton
 function generarPares() {
     let array = []; 
     for (let i = 1; i <= 200; i++) {
