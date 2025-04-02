@@ -1,8 +1,8 @@
 // funcion del boton
 function generarPares() {
-    let array = []; 
-    for (let i = 1; i <= 200; i++) {
-        if (i % 2 === 0) {
+    let array = []; //cadena donde se ingresarán los datos (números pares)
+    for (let i = 1; i <= 200; i++) { 
+        if (i % 2 === 0) { //condición para definir números pares
             array.push(i); 
         }
     }
