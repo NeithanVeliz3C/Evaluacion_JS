@@ -1,33 +1,40 @@
-*{
+/* Estilo básico para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
     text-align: center;
-    padding: 0;
     margin: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: black;
-    color:aliceblue
-}
-
-.boton{
-    border-radius: 50px;
-    padding: 30px;
-    font-size: 25px;
-}
-
-button{
-    background-color: hsl(186, 43%, 60%);
-    border-radius: 30px;
-    margin-top: 50px;
-    border: solid 1px;
     padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    color: #4CAF50;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+/* Párrafo */
+p {
     font-size: 25px;
-    width: 170px;
+    color: #555;
+    margin-bottom: 20px;
 }
 
-h1{
-    padding: 30px;
+/* Estilo básico para el botón */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-button:hover{
-    background-color: #007880;;
+/* Efecto al pasar el ratón sobre el botón */
+button:hover {
+    background-color: #45a049;
 }
 
