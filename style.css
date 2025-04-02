@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color:aliceblue
 }
 
 .boton{
@@ -12,7 +14,7 @@
 }
 
 button{
-    background-color: #0097A7;
+    background-color: hsl(186, 43%, 60%);
     border-radius: 30px;
     margin-top: 50px;
     border: solid 1px;
